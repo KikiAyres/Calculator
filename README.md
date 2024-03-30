@@ -28,7 +28,7 @@ Matemáquina é uma calculadora simples desenvolvida utilizando JavaScript, HTML
 **Estrutura de Arquivos:**
 
 - `index.html`: O arquivo HTML principal que contém a estrutura da calculadora.
-- `style.css`: Folha de estilo CSS para estilizar a calculadora.
+- `styles.css`: Folha de estilo CSS para estilizar a calculadora.
 - `script.js`: Código JavaScript para a lógica de funcionamento da calculadora.
 
 ---
