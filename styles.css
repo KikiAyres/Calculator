@@ -1,0 +1,112 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+  background-image: url("images/cats1.jpg");
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  padding: 20px;
+  height: 100vh;
+}
+
+
+.all {
+  height: calc(100vh - 40px);
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+h2{
+  color: palevioletred;
+  font-size: 26px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: gray;
+  text-align: center;
+  padding: 10px;
+  width: 90%;
+}
+
+.calculator{
+  border: none;
+  border-radius: 6px;
+  margin: 10px;
+  padding-bottom: 20px;
+  width: fit-content;
+  height: fit-content;
+  
+  background-color: rgba(200, 200, 200, 0.9);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);  
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tot{
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+
+  height: 40px;
+  width: 82%;
+  padding: 10px;
+  margin: 10px;
+
+  font-size: 20px;
+  color: gray;
+}
+
+.content {
+  display:flex;
+}
+
+.button {
+  background-color: whitesmoke;
+  color: gray;
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+  margin: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: .4s;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: bold;
+} 
+
+.button:hover {
+  background-color: rgb(238, 189, 205);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.error{
+  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.486);
+  border: 2px solid rgb(214, 73, 73);
+}
+
+.error::placeholder{
+  color: rgb(214, 73, 73);
+}
+
+
+
